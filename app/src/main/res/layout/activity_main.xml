@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -12,35 +12,33 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Hello World!"
-            android:textSize="34sp" />
-
         <Button
             android:id="@+id/birds"
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:text="Birds" />
+            android:text="Birds"
+            android:textSize="34sp" />
 
         <Button
             android:id="@+id/rain"
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:text="Rain" />
+            android:text="Rain"
+            android:textSize="34sp" />
 
         <Button
             android:id="@+id/car"
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:text="Car" />
+            android:text="Car"
+            android:textSize="34sp" />
 
         <Button
             android:id="@+id/mute"
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:text="mute" />
+            android:text="mute"
+            android:textSize="34sp" />
 
     </LinearLayout>
 

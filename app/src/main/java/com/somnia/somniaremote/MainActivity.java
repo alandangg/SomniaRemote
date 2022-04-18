@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
 
         birds.setOnClickListener(view -> {
             Request request = new Request.Builder()
-                    .url("http://10.0.0.85:5000/sounds/1")
+                    .url("http://172.16.0.3:5000/sounds/1")
                     .build();
 
             client.newCall(request).enqueue(new Callback() {
@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
         rain.setOnClickListener(view1 -> {
 
             Request request = new Request.Builder()
-                    .url("http://10.0.0.85:5000/sounds/2")
+                    .url("http://172.16.0.3:5000/sounds/2")
                     .build();
 
             client.newCall(request).enqueue(new Callback() {
@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
         car.setOnClickListener(view2 -> {
 
             Request request = new Request.Builder()
-                    .url("http://10.0.0.85:5000/sounds/3")
+                    .url("http://172.16.0.3:5000/sounds/3")
                     .build();
 
             client.newCall(request).enqueue(new Callback() {
@@ -109,7 +109,7 @@ public class MainActivity extends AppCompatActivity {
         mute.setOnClickListener(view3 -> {
 
             Request request = new Request.Builder()
-                    .url("http://10.0.0.85:5000/sounds/4")
+                    .url("http://172.16.0.3:5000/sounds/4")
                     .build();
 
             client.newCall(request).enqueue(new Callback() {
